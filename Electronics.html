@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="customcss/shop.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+        integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <style>
+        .single-service {
+            background-color: #f9f9ff;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+        }
+
+        .faq-area {
+            background: url(img/faq-bg.jpg) center;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+          <a href="#" class="navbar-brand">
+            <img src="img/freshcart-logo.svg" class="img-fluid rounded-top" alt="">
+          </a>
+          <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navitems" >
+            <i class="fa-solid fa-bars-staggered "></i>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navitems">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link text-dark">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="" class="nav-link dropdown-toggle text-dark" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Stores</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="grocery.html">Grocery</a></li>
+                  <li><a class="dropdown-item" href="Electronics.html">Electronics</a></li>
+                  <li><a class="dropdown-item" href="fashion.html"> Fashion </a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="blog.html" class="nav-link text-dark">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link text-dark">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a href="aboutus.html" class="nav-link text-dark">Aboutus</a>
+              </li>
+            </ul>
+      
+          </div>
+        </div>
+      
+      
+      </header>
+
+
+
+    <section class="my-lg-5 my-5">
+        <div class="container">
+            <div class="row wow animate__animated animate__slideInLeft">
+                <div class="col-12 mb-6">
+                    <h3 class="mb-0">Popular Products</h3>
+                </div>
+            </div>
+
+            <div class="row g-4 row-cols-lg-5 row-cols-2 row-cols-md-3 mt-3">
+
+                <!-- Products 1 -->
+                <div class="col">
+                    <div class="card card-product">
+                        <div class="card-body">
+                            <div class="text-center position-relative">
+                                <div class="position-absolute top-0 start-0">
+                                    <span class="badge bg-danger">Sale</span>
+                                </div>
+                                <a href="#!"><img src="img/Electronics/e1.png" alt="Grocery Ecommerce Template"
+                                        class="mb-2 img-fluid wow animate__animated animate__tada"></a>
+                            </div>
+                            <div class="text-small mb-1">
+                                <a href="" class="text-decoration-none text-muted"><small>Category</small></a>
+                            </div>
+                            <h2 class="fs-6"><a href=""
+                                    class="text-inherit text-dark text-dark text-decoration-none">Laptop
+                                    Collection</a></h2>
+
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div>
+                                    <span class="text-dark">$790</span>
+                                    <span class="text-decoration-line-through text-muted">$990</span>
+                                </div>
+                                <div>
+                                    <a href="" class="btn btn-success btn-sm">Add</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Products 2 -->
+                <div class="col">
+                    <div class="card card-product">
+                        <div class="card-body">
+                            <div class="text-center position-relative">
+                                <div class="position-absolute top-0 start-0">
+                                    <span class="badge bg-success">14%</span>
+                                </div>
+                                <a href=""><img src="img/Electronics/e2.png" alt="Grocery Ecommerce Template"
+                                        class="mb-2 img-fluid wow animate__animated animate__tada"></a>
+                            </div>
+                            <div class="text-small mb-1">
+                                <a href="#!" class="text-decoration-none text-muted"><small>Category</small></a>
+                            </div>
+                            <h2 class="fs-6"><a href=""
+                                    class="text-inherit text-dark text-dark text-decoration-none">Accessories
+                                    Collection</a></h2>
+
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div>
+                                    <span class="text-dark">$790</span>
+                                    <span class="text-decoration-line-through text-muted">$990</span>
+                                </div>
+                                <a href="#!" class="btn btn-success btn-sm">Add </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Products 3 -->
+                <div class="col">
+                    <div class="card card-product">
+                        <div class="card-body">
+                            <div class="text-center position-relative">
+                                <a href=""><img src="img/Electronics/e4.png" alt="Grocery Ecommerce Template"
+                                        class="mb-3 mt-5 img-fluid wow animate__animated animate__tada"></a>
+                            </div>
+                            <div class="text-small mb-1 pt-2">
+                                <a href="#!" class="text-decoration-none text-muted "><small>Category</small></a>
+                            </div>
+                            <h2 class="fs-6"><a href="" class="text-inherit text-dark text-decoration-none">Cameras
+                                    Collection</a></h2>
+
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div>
+                                    <span class="text-dark">$832</span>
+                                    <span class="text-decoration-line-through text-muted">$935</span>
+                                </div>
+                                <div>
+                                    <a href="#!" class="btn btn-success btn-sm">Add </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Products 4 -->
+                <div class="col">
+                    <div class="card card-product">
+                        <div class="card-body">
+                            <div class="text-center position-relative">
+                                <div class="position-absolute top-0 start-0">
+                                    <span class="badge bg-danger">Sale</span>
+                                </div>
+                                <a href="#!"><img src="img/Electronics/e5.png" alt="Grocery Ecommerce Template"
+                                        class="mb-2 img-fluid wow animate__animated animate__tada"></a>
+                            </div>
+                            <div class="text-small mb-1">
+                                <a href="" class="text-decoration-none text-muted"><small>Category</small></a>
+                            </div>
+                            <h2 class="fs-6"><a href=""
+                                    class="text-inherit text-dark text-dark text-decoration-none">Laptop
+                                    Collection</a></h2>
+
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div>
+                                    <span class="text-dark">$790</span>
+                                    <span class="text-decoration-line-through text-muted">$990</span>
+                                </div>
+                                <div>
+                                    <a href="" class="btn btn-success btn-sm">Add</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Products 5 -->
+                <div class="col">
+                    <div class="card card-product">
+                        <div class="card-body">
+                            <div class="text-center position-relative">
+                                <div class="position-absolute top-0 start-0">
+                                    <span class="badge bg-success">14%</span>
+                                </div>
+                                <a href=""><img src="img/Electronics/e6.png" alt="Grocery Ecommerce Template"
+                                        class="mb-2 img-fluid wow animate__animated animate__tada"></a>
+                            </div>
+                            <div class="text-small mb-1">
+                                <a href="#!" class="text-decoration-none text-muted"><small>Category</small></a>
+                            </div>
+                            <h2 class="fs-6"><a href=""
+                                    class="text-inherit text-dark text-dark text-decoration-none">Accessories
+                                    Collection</a></h2>
+
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div>
+                                    <span class="text-dark">$790</span>
+                                    <span class="text-decoration-line-through text-muted">$990</span>
+                                </div>
+                                <a href="#!" class="btn btn-success btn-sm">Add </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Products 6 -->
+                <div class="col">
+                    <div class="card card-product">
+                        <div class="card-body">
+                            <div class="text-center position-relative">
+                                <a href=""><img src="img/Electronics/e7.png" alt="Grocery Ecommerce Template"
+                                        class="mb-2  img-fluid wow animate__animated animate__tada"></a>
+                            </div>
+                            <div class="text-small mb-1 pt-2">
+                                <a href="#!" class="text-decoration-none text-muted "><small>Category</small></a>
+                            </div>
+                            <h2 class="fs-6"><a href="" class="text-inherit text-dark text-decoration-none">Cameras
+                                    Collection</a></h2>
+
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div>
+                                    <span class="text-dark">$832</span>
+                                    <span class="text-decoration-line-through text-muted">$935</span>
+                                </div>
+                                <div>
+                                    <a href="#!" class="btn btn-success btn-sm">Add </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Products 7 -->
+                <div class="col">
+                    <div class="card card-product">
+                        <div class="card-body">
+                            <div class="text-center position-relative">
+                                <div class="position-absolute top-0 start-0">
+                                    <span class="badge bg-danger">Sale</span>
+                                </div>
+                                <a href="#!"><img src="img/Electronics/e8.png" alt="Grocery Ecommerce Template"
+                                        class="mb-2 img-fluid wow animate__animated animate__tada"></a>
+                            </div>
+                            <div class="text-small mb-1">
+                                <a href="" class="text-decoration-none text-muted"><small>Category</small></a>
+                            </div>
+                            <h2 class="fs-6"><a href=""
+                                    class="text-inherit text-dark text-dark text-decoration-none">Laptop
+                                    Collection</a></h2>
+
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div>
+                                    <span class="text-dark">$790</span>
+                                    <span class="text-decoration-line-through text-muted">$990</span>
+                                </div>
+                                <div>
+                                    <a href="" class="btn btn-success btn-sm">Add</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Products 8 -->
+                <div class="col">
+                    <div class="card card-product">
+                        <div class="card-body">
+                            <div class="text-center position-relative">
+                                <div class="position-absolute top-0 start-0">
+                                    <span class="badge bg-success">14%</span>
+                                </div>
+                                <a href=""><img src="img/Electronics/e3.jpg" alt="Grocery Ecommerce Template"
+                                        class="mb-2 mt-5 img-fluid wow animate__animated animate__tada"></a>
+                            </div>
+                            <div class="text-small mb-1">
+                                <a href="#!" class="text-decoration-none text-muted"><small>Category</small></a>
+                            </div>
+                            <h2 class="fs-6"><a href="" class="text-inherit text-dark text-dark text-decoration-none">
+                                    Smart Watch</a></h2>
+
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div>
+                                    <span class="text-dark">$790</span>
+                                    <span class="text-decoration-line-through text-muted">$990</span>
+                                </div>
+                                <a href="#!" class="btn btn-success btn-sm">Add </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Products 9 -->
+                <div class="col">
+                    <div class="card card-product">
+                        <div class="card-body">
+                            <div class="text-center position-relative">
+                                <a href=""><img src="img/Electronics/e9.jpg" alt="Grocery Ecommerce Template"
+                                        class="mb-3 mt-4 img-fluid wow animate__animated animate__tada"></a>
+                            </div>
+                            <div class="text-small mb-1 pt-2">
+                                <a href="#!" class="text-decoration-none text-muted "><small>Category</small></a>
+                            </div>
+                            <h2 class="fs-6"><a href="" class="text-inherit text-dark text-decoration-none"> Smart
+                                    Watch</a></h2>
+
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div>
+                                    <span class="text-dark">$832</span>
+                                    <span class="text-decoration-line-through text-muted">$935</span>
+                                </div>
+                                <div>
+                                    <a href="#!" class="btn btn-success btn-sm">Add </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Products 10 -->
+
+                <div class="col">
+
+                    <div class="card card-product">
+                        <div class="card-body">
+                            <div class="text-center position-relative">
+                                <a href=""><img src="img/Electronics/e10.jpg" alt="Grocery Ecommerce Template"
+                                        class="mb-3 mt-4 img-fluid wow animate__animated animate__tada"></a>
+                            </div>
+                            <div class="text-small mb-1 pt-2">
+                                <a href="#!" class="text-decoration-none text-muted "><small>Category</small></a>
+                            </div>
+                            <h2 class="fs-6"><a href="" class="text-inherit text-dark text-decoration-none"> Smart
+                                    Watch</a></h2>
+
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div>
+                                    <span class="text-dark">$832</span>
+                                    <span class="text-decoration-line-through text-muted">$935</span>
+                                </div>
+                                <div>
+                                    <a href="#!" class="btn btn-success btn-sm">Add </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="service-area section-gap" id="service">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-8 pb-40 header-text">
+                    <h1 class="text-center display-5"> Some Features that Made us Unique</h1>
+                    <p class="text-center">
+                        Who are in extremely love with eco friendly system.
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-4 col-md-6 ">
+                    <div class="single-service">
+                        <h4><span class="lnr lnr-user"></span>Expert Technicians</h4>
+                        <p>
+                            Usage of the Internet is becoming more common due to rapid advancement of technology and
+                            power.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-service">
+                        <h4><span class="lnr lnr-license"></span>Professional Service</h4>
+                        <p>
+                            Usage of the Internet is becoming more common due to rapid advancement of technology and
+                            power.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-service">
+                        <h4><span class="lnr lnr-phone"></span>Great Support</h4>
+                        <p>
+                            Usage of the Internet is becoming more common due to rapid advancement of technology and
+                            power.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-service">
+                        <h4><span class="lnr lnr-rocket"></span>Technical Skills</h4>
+                        <p>
+                            Usage of the Internet is becoming more common due to rapid advancement of technology and
+                            power.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-service">
+                        <h4><span class="lnr lnr-diamond"></span>Highly Recomended</h4>
+                        <p>
+                            Usage of the Internet is becoming more common due to rapid advancement of technology and
+                            power.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-service">
+                        <h4><span class="lnr lnr-bubble"></span>Positive Reviews</h4>
+                        <p>
+                            Usage of the Internet is becoming more common due to rapid advancement of technology and
+                            power.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-area section-gap" id="faq">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="menu-content pb-60 col-lg-10 mt-5 mb-5">
+                    <div class="title text-center">
+                        <h1 class="mb-10">Frequently Asked Questions</h1>
+                        <p>Who are in extremely love with eco friendly system.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-start mt-4 ">
+                <div class="col-lg-6 faq-left">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+
+
+                        <div class="card">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+
+                                        Are your Templates responsive?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                        ad minim veniam, quis nostrud exercitation ullamco laboris.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+
+                                        Does it have all the plugin as mentioned?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                        ad minim veniam, quis nostrud exercitation ullamco laboris.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-5">
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+
+                                        Can i use the these theme for my client?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                        ad minim veniam, quis nostrud exercitation ullamco laboris.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="my-lg-5 my-5">
+        <div class="container">
+            <div class="row wow animate__animated animate__slideInLeft">
+                <div class="col-12 mb-6">
+                    <h3 class="mb-0">Popular Products</h3>
+                </div>
+            </div>
+
+            <div class="row g-4 row-cols-lg-5 row-cols-2 row-cols-md-3 mt-3">
+
+                <!-- Products 1 -->
+
+                <div class="col">
+                    <div class="card card-product">
+                        <div class="card-body">
+                            <div class="text-center position-relative ">
+                                <div class="position-absolute top-0 start-0">
+                                    <span class="badge bg-danger">Sale</span>
+                                </div>
+                                <a href="#!"><img src="img/Electronics/e11.jpg" alt="Grocery Ecommerce Template"
+                                        class="mb-2 img-fluid wow animate__animated animate__tada mt-5"></a>
+                            </div>
+                            <div class="text-small mb-1 mt-1 text-center">
+                                <a href="" class="text-decoration-none text-dark h6 text-center"><small>$225</small></a>
+                            </div>
+                            <h2 class="fs-6 text-center">
+                                <a href="" class="text-dark text-decoration-none ">Astro M2 Black</a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Products 2 -->
+
+                <div class="col">
+                    <div class="card card-product">
+                        <div class="card-body">
+                            <div class="text-center position-relative ">
+                                <div class="position-absolute top-0 start-0">
+                                    <span class="badge bg-danger">Sale</span>
+                                </div>
+                                <a href="#!"><img src="img/Electronics/e12.jpg" alt="Grocery Ecommerce Template"
+                                        class="mb-2 img-fluid wow animate__animated animate__tada mt-3"></a>
+                            </div>
+                            <div class="text-small mb-1 mt-1 text-center">
+                                <a href="" class="text-decoration-none text-dark h6 text-center"><small>$379</small></a>
+                            </div>
+                            <h2 class="fs-6 text-center">
+                                <a href="" class="text-dark text-decoration-none ">Transcend T.Sonic </a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Products 3 -->
+
+                <div class="col">
+                    <div class="card card-product">
+                        <div class="card-body">
+                            <div class="text-center position-relative ">
+                                <div class="position-absolute top-0 start-0">
+                                    <span class="badge bg-danger">Sale</span>
+                                </div>
+                                <a href="#!"><img src="img/Electronics/e13.jpg" alt="Grocery Ecommerce Template"
+                                        class="mb-2 img-fluid wow animate__animated animate__tada mt-3"></a>
+                            </div>
+                            <div class="text-small mb-1 mt-1 text-center">
+                                <a href="" class="text-decoration-none text-dark h6 text-center"><small>$379</small></a>
+                            </div>
+                            <h2 class="fs-6 text-center">
+                                <a href="" class="text-dark text-decoration-none ">Xiaomi Band 2... </a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Products 4 -->
+
+                <div class="col">
+                    <div class="card card-product">
+                        <div class="card-body">
+                            <div class="text-center position-relative ">
+                                <div class="position-absolute top-0 start-0">
+                                    <span class="badge bg-danger">Sale</span>
+                                </div>
+                                <a href="#!"><img src="img/Electronics/e14.jpg" alt="Grocery Ecommerce Template"
+                                        class="mb-2 img-fluid wow animate__animated animate__tada mt-3"></a>
+                            </div>
+                            <div class="text-small mb-1 mt-1 text-center">
+                                <a href="" class="text-decoration-none text-dark h6 text-center"><small>$225</small></a>
+                            </div>
+                            <h2 class="fs-6 text-center">
+                                <a href="" class="text-dark text-decoration-none ">Rapoo T8 White </a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Products 5 -->
+
+                <div class="col">
+                    <div class="card card-product">
+                        <div class="card-body">
+                            <div class="text-center position-relative ">
+                                <div class="position-absolute top-0 start-0">
+                                    <span class="badge bg-danger">Sale</span>
+                                </div>
+                                <a href="#!"><img src="img/Electronics/e15.jpg" alt="Grocery Ecommerce Template"
+                                        class="mb-2 img-fluid wow animate__animated animate__tada mt-3"></a>
+                            </div>
+                            <div class="text-small mb-1 mt-1 text-center">
+                                <a href="" class="text-decoration-none text-dark h6 text-center"><small>$225</small></a>
+                            </div>
+                            <h2 class="fs-6 text-center">
+                                <a href="" class="text-dark text-decoration-none ">Philips BT6900A</a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Products 6 -->
+
+                <div class="col">
+                    <div class="card card-product">
+                        <div class="card-body">
+                            <div class="text-center position-relative ">
+                                <div class="position-absolute top-0 start-0">
+                                    <span class="badge bg-danger">Sale</span>
+                                </div>
+                                <a href="#!"><img src="img/Electronics/e16.jpg" alt="Grocery Ecommerce Template"
+                                        class="mb-2 img-fluid wow animate__animated animate__tada mt-3"></a>
+                            </div>
+                            <div class="text-small mb-1 mt-1 text-center">
+                                <a href="" class="text-decoration-none text-dark h6 text-center"><small>$379</small></a>
+                            </div>
+                            <h2 class="fs-6 text-center">
+                                <a href="" class="text-dark text-decoration-none ">Nokia 3310(2017)... </a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Products 7 -->
+
+                <div class="col">
+                    <div class="card card-product">
+                        <div class="card-body">
+                            <div class="text-center position-relative ">
+                                <div class="position-absolute top-0 start-0">
+                                    <span class="badge bg-danger">Sale</span>
+                                </div>
+                                <a href="#!"><img src="img/Electronics/e17.jpg" alt="Grocery Ecommerce Template"
+                                        class="mb-2 img-fluid wow animate__animated animate__tada mt-3"></a>
+                            </div>
+                            <div class="text-small mb-1 mt-1 text-center">
+                                <a href="" class="text-decoration-none text-dark h6 text-center"><small>$379</small></a>
+                            </div>
+                            <h2 class="fs-6 text-center">
+                                <a href="" class="text-dark text-decoration-none ">Rapoo 7100p Gray </a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Products 8 -->
+
+                <div class="col">
+                    <div class="card card-product">
+                        <div class="card-body">
+                            <div class="text-center position-relative ">
+                                <div class="position-absolute top-0 start-0">
+                                    <span class="badge bg-danger">Sale</span>
+                                </div>
+                                <a href="#!"><img src="img/Electronics/e18.jpg" alt="Grocery Ecommerce Template"
+                                        class="mb-2 img-fluid wow animate__animated animate__tada mt-3"></a>
+                            </div>
+                            <div class="text-small mb-1 mt-1 text-center">
+                                <a href="" class="text-decoration-none text-dark h6 text-center"><small>$225</small></a>
+                            </div>
+                            <h2 class="fs-6 text-center">
+                                <a href="" class="text-dark text-decoration-none ">Canon EF </a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Products 9 -->
+
+                <div class="col">
+                    <div class="card card-product">
+                        <div class="card-body">
+                            <div class="text-center position-relative ">
+                                <div class="position-absolute top-0 start-0">
+                                    <span class="badge bg-danger">Sale</span>
+                                </div>
+                                <a href="#!"><img src="img/Electronics/e19.jpg" alt="Grocery Ecommerce Template"
+                                        class="mb-2 img-fluid wow animate__animated animate__tada mt-3"></a>
+                            </div>
+                            <div class="text-small mb-1 mt-1 text-center">
+                                <a href="" class="text-decoration-none text-dark h6 text-center"><small>$225</small></a>
+                            </div>
+                            <h2 class="fs-6 text-center">
+                                <a href="" class="text-dark text-decoration-none ">Sony PS4 Slim </a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Products 10 -->
+
+                <div class="col">
+                    <div class="card card-product">
+                        <div class="card-body">
+                            <div class="text-center position-relative ">
+                                <div class="position-absolute top-0 start-0">
+                                    <span class="badge bg-danger">Sale</span>
+                                </div>
+                                <a href="#!"><img src="img/Electronics/e20.jpg" alt="Grocery Ecommerce Template"
+                                        class="mb-2 img-fluid wow animate__animated animate__tada mt-3"></a>
+                            </div>
+                            <div class="text-small mb-1 mt-1 text-center">
+                                <a href="" class="text-decoration-none text-dark h6 text-center"><small>$225</small></a>
+                            </div>
+                            <h2 class="fs-6 text-center">
+                                <a href="" class="text-dark text-decoration-none "> Samsung J730F...</a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-muted">© 2023  Full Stack</p>
+      
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+           <img src="img/freshcart-logo.svg" class="img-fluid rounded-top" alt="">
+          </a>
+      
+          <ul class="nav col-md-4 justify-content-end">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link text-dark">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="" class="nav-link dropdown-toggle text-dark" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Stores</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="grocery.html">Grocery</a></li>
+                  <li><a class="dropdown-item" href="Electronics.html">Electronics</a></li>
+                  <li><a class="dropdown-item" href="fashion.html"> Fashion </a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="blog.html" class="nav-link text-dark">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link text-dark">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a href="aboutus.html" class="nav-link text-dark">Aboutus</a>
+              </li>
+          </ul>
+        </footer>
+      </div>
+    
+
+</body>
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+</html>

@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="customcss/home.css">
+  <link rel="stylesheet" href="customcss/mediahome.css">
+
+  <link rel="stylesheet" href="css/animate.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="vendors/slick/slick.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+    integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+
+<body>
+<header class="navbar navbar-expand-lg bg-light">
+  <div class="container">
+    <a href="#" class="navbar-brand">
+      <img src="img/freshcart-logo.svg" class="img-fluid rounded-top" alt="">
+    </a>
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navitems" >
+      <i class="fa-solid fa-bars-staggered "></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navitems">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link text-dark">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="" class="nav-link dropdown-toggle text-dark" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Stores</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="grocery.html">Grocery</a></li>
+            <li><a class="dropdown-item" href="Electronics.html">Electronics</a></li>
+            <li><a class="dropdown-item" href="fashion.html"> Fashion </a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a href="blog.html" class="nav-link text-dark">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link text-dark">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a href="aboutus.html" class="nav-link text-dark">Aboutus</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+
+
+</header>
+
+
+
+  <div class="container mt-2">
+    <div class="wrapper">
+      <ul class="pbSliderContainer">
+        <li class="pbSlider slide1 active">
+          <img src="img/slide-1.jpg">
+          <div class="PBcaption">
+            <span class=" text-warning ">Opening Sale Discount 50%</span>
+            <h2 class="text-dark ">SuperMarket For Fresh Grocery</h2>
+            <p class=" text-dark">Introduced a new model for online grocery <br> shopping and convenient home delivery.
+            </p>
+            <a href="" class="btn btn-dark " tabindex="0">
+              Shop Now
+            </a>
+          </div>
+        </li>
+        <li class="pbSlider slide2 hidden" style="list-style: none;">
+          <img src="img/slide-3.jpg">
+          <div class="PBcaption">
+            <span class=" text-warning ">Women Collection 2024</span>
+            <h2 class="text-dark ">NEW SEASON</h2>
+            <p class=" text-dark">Free Shipping to First-Time Customers Only, After promotions and discounts are
+              applied.
+            </p>
+            <a href="" class="btn btn-dark mt-lg-3" tabindex="0">
+              Shop Now
+            </a>
+          </div>
+        </li>
+        <li class="pbSlider slide3 hidden" style="list-style: none;">
+          <img src="img/slider-2.jpg" class="img-fluid">
+          <div class="PBcaption">
+            <span class=" text-warning ">Free Shipping - orders over $100</span>
+            <h2 class="text-dark ">Free Shipping on orders over</h2>
+            <p class=" text-dark">Free Shipping to First-Time Customers Only, After promotions and discounts are
+              applied.
+            </p>
+            <a href="" class="btn btn-dark mt-lg-3" tabindex="0">
+              Shop Now
+            </a>
+          </div>
+        </li>
+
+        <li class="pbSlider slide4 hidden" style="list-style: none;">
+          <img src="img/slide-4.jpg" class="img-fluid">
+          <div class="PBcaption">
+            <span class=" text-warning ">Men Collection 2024</span>
+            <h2 class="text-dark ">New arrivals</h2>
+            <p class=" text-dark">Free Shipping to First-Time Customers Only, After promotions and discounts are
+              applied.
+            </p>
+            <a href="" class="btn btn-dark mt-lg-3" tabindex="0">
+              Shop Now
+            </a>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+
+
+  <div class="bg-color-white axil-section-gapcommon">
+    <div class="container">
+      <div class="slider-section-title section-title-border">
+        <h2 class="title">Featured Categories</h2>
+      </div>
+      <div class="row row-cols-lg-5 row-cols-sm-3 row-cols-2">
+        <div class="col">
+          <div class="card-body text-center">
+            <img src="img/women-Categories-1.png" alt="product categorie" class="mb-3 img-fluid">
+            <h5 class="cat-title">Women's</h5>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-body text-center">
+            <img src="img/men-Categories-1.png" alt="product categorie" class="mb-3 img-fluid">
+            <h5 class="cat-title">Men's</h5>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-body text-center">
+            <img src="img/kid-Categories-1.png" alt="product categorie" class="mb-3 img-fluid">
+            <h5 class="cat-title">Kid's</h5>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-body text-center">
+            <img src="img/phone-Categories-1.png" alt="product categorie" class="mb-3 img-fluid">
+            <h5 class="cat-title  ">Phone</h5>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card-body text-center ">
+            <img src="img/supermarket-shelf.png" alt="Grocery Ecommerce Template" class="mb-3 img-fluid">
+            <div class="text-truncate  ">Supermarket</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container  wow animate__animated animate__fadeIn">
+    <div class="row justify-content-between align-items-center g-2 mt-5 mb-4">
+      <div class="col-6 mb-6">
+        <h3 class="mb-0">Featured Categories</h3>
+      </div>
+      <div class="col-1">
+        <button type="button" class="swiper-next" style="font-size: 20px;"><i
+            class="fa-solid fa-angle-left"></i></button>
+        <button type="button" class="swiper-prev" style="font-size: 20px;"><i
+            class="fa-solid fa-angle-right"></i></button>
+      </div>
+    </div>
+
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="card-body text-center ">
+            <img src="img/category-tea-coffee-drinks.jpg" alt="Grocery Ecommerce Template" class="mb-3 img-fluid">
+            <div class="text-truncate  ">Tea, Coffee</div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card-body text-center ">
+            <img src="img/category-atta-rice-dal.jpg" alt="Grocery Ecommerce Template" class="mb-3  img-fluid">
+            <div class="text-truncate  ">Atta, Rice &amp; Dal</div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card-body text-center ">
+            <img src="img/category-baby-care.jpg" alt="Grocery Ecommerce Template" class="mb-3  img-fluid">
+            <div class="text-truncate ">Baby Care</div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card-body text-center ">
+            <img src="img/category-chicken-meat-fish.jpg" alt="Grocery Ecommerce Template" class="mb-3  img-fluid">
+            <div class="text-truncate  "> Meat &amp; Fish</div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card-body text-center ">
+            <img src="img/category-cleaning-essentials.jpg" alt="Grocery Ecommerce Template" class="mb-3  img-fluid">
+            <div class="text-truncate ">Cleaning Essentials</div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card-body text-center ">
+            <img src="img/category-pet-care.jpg" alt="Grocery Ecommerce Template" class="mb-3  img-fluid">
+            <div class="text-truncate  ">Pet Care</div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card-body text-center ">
+            <img src="img/category-dairy-bread-eggs.jpg" alt="Grocery Ecommerce Template" class="mb-3  img-fluid">
+            <div class="text-truncate  ">Dairy, Bread </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card-body text-center ">
+            <img src="img/category-snack-munchies.jpg" alt="Grocery Ecommerce Template" class="mb-3  img-fluid">
+            <div class="text-truncate ">Snack &amp; Munchies</div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card-body text-center ">
+            <img src="img/category-bakery-biscuits.jpg" alt="Grocery Ecommerce Template" class="mb-3  img-fluid">
+            <div class="text-truncate ">Bakery &amp; Biscuits </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card-body text-center ">
+            <img src="img/category-instant-food.jpg" alt="Grocery Ecommerce Template" class="mb-3  img-fluid">
+            <div class="text-truncate  ">Instant Food</div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card-body text-center ">
+            <img src="img/category-tea-coffee-drinks.jpg" alt="Grocery Ecommerce Template" class="mb-3  img-fluid">
+            <div class="text-truncate  ">Tea, Coffee</div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card-body text-center ">
+            <img src="img/category-atta-rice-dal.jpg" alt="Grocery Ecommerce Template" class="mb-3  img-fluid">
+            <div class="text-truncate  ">Atta, Rice &amp; Dal</div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card-body text-center ">
+            <img src="img/category-baby-care.jpg" alt="Grocery Ecommerce Template" class="mb-3  img-fluid">
+            <div class="text-truncate ">Baby Care</div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card-body text-center ">
+            <img src="img/category-chicken-meat-fish.jpg" alt="Grocery Ecommerce Template" class="mb-3  img-fluid">
+            <div class="text-truncate  "> Meat &amp; Fish</div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card-body text-center ">
+            <img src="img/category-cleaning-essentials.jpg" alt="Grocery Ecommerce Template" class="mb-3  img-fluid">
+            <div class="text-truncate ">Cleaning Essentials</div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card-body text-center ">
+            <img src="img/category-pet-care.jpg" alt="Grocery Ecommerce Template" class="mb-3  img-fluid">
+            <div class="text-truncate ">Pet Care</div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card-body text-center ">
+            <img src="img/category-dairy-bread-eggs.jpg" alt="Grocery Ecommerce Template" class="mb-3  img-fluid">
+            <div class="text-truncate  ">Dairy, Bread </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card-body text-center ">
+            <img src="img/category-snack-munchies.jpg" alt="Grocery Ecommerce Template" class="mb-3  img-fluid">
+            <div class="text-truncate ">Snack &amp; Munchies</div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card-body text-center ">
+            <img src="img/category-bakery-biscuits.jpg" alt="Grocery Ecommerce Template" class="mb-3  img-fluid">
+            <div class="text-truncate ">Bakery &amp; Biscuits </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card-body text-center ">
+            <img src="img/category-instant-food.jpg" alt="Grocery Ecommerce Template" class="mb-3  img-fluid">
+            <div class="text-truncate  ">Instant Food</div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <section class="overflow-hidden">
+    <div class="container mt-5 mb-4">
+      <div class="row g-2">
+        <div class="col-12 col-md-6 wow animate__animated animate__slideInLeft">
+          <div>
+            <div class="py-5 px-5 rounded"
+              style="background: url(img/grocery-banner.png) no-repeat; background-size: cover; background-position: center">
+              <div>
+                <h3 class="fw-bold mb-1">Fruits &amp; Vegetables</h3>
+                <p class="">
+                  Get Upto
+                  <span class="fw-bold">30%</span>
+                  Off
+                </p>
+                <a href="" class="btn btn-dark">Shop Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 wow animate__animated animate__slideInRight">
+          <div>
+            <div class="py-5 px-5 rounded"
+              style="background: url(img/grocery-banner-2.jpg) no-repeat; background-size: cover; background-position: center">
+              <div>
+                <h3 class="fw-bold mb-1">Freshly Baked Buns</h3>
+                <p class="">
+                  Get Upto
+                  <span class="fw-bold">25%</span>
+                  Off
+                </p>
+                <a href="" class="btn btn-dark">Shop Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Popular Products Start-->
+
+  <section class="my-lg-5 my-5">
+    <div class="container">
+      <div class="row wow animate__animated animate__slideInLeft">
+        <div class="col-12 mb-6">
+          <h3 class="mb-0">Popular Products</h3>
+        </div>
+      </div>
+
+      <div class="row g-4 row-cols-lg-5 row-cols-2 row-cols-md-3 mt-3">
+
+        <!-- Products 1 -->
+        <div class="col">
+          <div class="card card-product">
+            <div class="card-body">
+              <div class="text-center position-relative">
+                <div class="position-absolute top-0 start-0">
+                  <span class="badge bg-danger">Sale</span>
+                </div>
+                <a href="#!"><img src="img/grocery/product-img-1.jpg" alt="Grocery Ecommerce Template"
+                    class="mb-2 img-fluid wow animate__animated animate__tada"></a>
+              </div>
+              <div class="text-small mb-1">
+                <a href="" class="text-decoration-none text-muted"><small>Snack &amp; Munchies</small></a>
+              </div>
+              <h2 class="fs-6"><a href="" class="text-inherit text-dark text-dark text-decoration-none">Haldiram's
+                  Sev Bhujia</a></h2>
+
+              <div class="d-flex justify-content-between align-items-center mt-3">
+                <div>
+                  <span class="text-dark">$18</span>
+                  <span class="text-decoration-line-through text-muted">$24</span>
+                </div>
+                <div>
+                  <a href="" class="btn btn-success btn-sm">Add</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Products 2 -->
+        <div class="col">
+          <div class="card card-product">
+            <div class="card-body">
+              <div class="text-center position-relative">
+                <div class="position-absolute top-0 start-0">
+                  <span class="badge bg-success">14%</span>
+                </div>
+                <a href=""><img src="img/grocery/product-img-2.jpg" alt="Grocery Ecommerce Template"
+                    class="mb-2 img-fluid wow animate__animated animate__tada"></a>
+              </div>
+              <div class="text-small mb-1">
+                <a href="#!" class="text-decoration-none text-muted"><small>Bakery &amp; Biscuits</small></a>
+              </div>
+              <h2 class="fs-6"><a href="" class="text-inherit text-dark text-dark text-decoration-none">NutriChoice
+                  Digestive</a></h2>
+
+              <div class="d-flex justify-content-between align-items-center mt-3">
+                <div><span class="text-dark">$24</span></div>
+                <div>
+                  <a href="#!" class="btn btn-success btn-sm">Add </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Products 3 -->
+        <div class="col">
+          <div class="card card-product">
+            <div class="card-body">
+              <div class="text-center position-relative">
+                <a href=""><img src="img/grocery/product-img-3.jpg" alt="Grocery Ecommerce Template"
+                    class="mb-2 img-fluid wow animate__animated animate__tada"></a>
+              </div>
+              <div class="text-small mb-1">
+                <a href="#!" class="text-decoration-none text-muted"><small>Bakery &amp; Biscuits</small></a>
+              </div>
+              <h2 class="fs-6"><a href="" class="text-inherit text-dark text-decoration-none">Cadbury 5 Star
+                  Chocolate</a></h2>
+
+              <div class="d-flex justify-content-between align-items-center mt-3">
+                <div>
+                  <span class="text-dark">$32</span>
+                  <span class="text-decoration-line-through text-muted">$35</span>
+                </div>
+                <div>
+                  <a href="#!" class="btn btn-success btn-sm">Add </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Products 4 -->
+        <div class="col">
+          <div class="card card-product">
+            <div class="card-body">
+              <div class="text-center position-relative">
+                <a href=""><img src="img/grocery/product-img-4.jpg" alt="Grocery Ecommerce Template"
+                    class="mb-2 img-fluid wow animate__animated animate__tada"></a>
+                <div class="position-absolute top-0 start-0">
+                  <span class="badge bg-danger">Hot</span>
+                </div>
+              </div>
+              <div class="text-small mb-1">
+                <a href="#!" class="text-decoration-none text-muted"><small>Snack &amp; Munchies</small></a>
+              </div>
+              <h2 class="fs-6"><a href="" class="text-inherit text-dark text-decoration-none">Onion
+                  Flavour Potato</a></h2>
+              <div class="d-flex justify-content-between align-items-center mt-3">
+                <div>
+                  <span class="text-dark">$3</span>
+                  <span class="text-decoration-line-through text-muted">$5</span>
+                </div>
+                <div>
+                  <a href="#!" class="btn btn-success btn-sm">Add</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Products 5 -->
+
+        <div class="col">
+          <div class="card card-product">
+            <div class="card-body">
+              <div class="text-center position-relative">
+                <a href=""><img src="img/grocery/product-img-5.jpg" alt="Grocery Ecommerce Template"
+                    class="mb-2 img-fluid wow animate__animated animate__tada"></a>
+
+              </div>
+              <div class="text-small mb-1">
+                <a href="#!" class="text-decoration-none text-muted"><small>Instant Food</small></a>
+              </div>
+              <h2 class="fs-6"><a href="" class="text-inherit text-dark text-decoration-none">Salted
+                  Instant Popcorn</a></h2>
+
+              <div class="d-flex justify-content-between mt-4">
+                <div>
+                  <span class="text-dark">$13</span>
+                  <span class="text-decoration-line-through text-muted">$18</span>
+                </div>
+                <div>
+                  <a href="#!" class="btn btn-success btn-sm"> Add </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Products 6 -->
+
+        <div class="col">
+          <div class="card card-product">
+            <div class="card-body">
+              <div class="text-center position-relative">
+                <div class="position-absolute top-0 start-0">
+                  <span class="badge bg-danger">Sale</span>
+                </div>
+                <a href="#!"><img src="img/grocery/product-img-6.jpg" alt="Grocery Ecommerce Template"
+                    class="mb-2 img-fluid wow animate__animated animate__tada"></a>
+
+              </div>
+              <div class="text-small mb-1">
+                <a href="#!" class="text-decoration-none text-muted"><small>Dairy, Bread &amp; Eggs</small></a>
+              </div>
+              <h2 class="fs-6"><a href="" class="text-inherit text-dark text-decoration-none">Blueberry
+                  Greek Yogurt</a></h2>
+
+              <div class="d-flex justify-content-between align-items-center mt-3">
+                <div>
+                  <span class="text-dark">$18</span>
+                  <span class="text-decoration-line-through text-muted">$24</span>
+                </div>
+                <div>
+                  <a href="#!" class="btn btn-success btn-sm"> Add </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Products 7 -->
+
+        <div class="col">
+          <div class="card card-product">
+            <div class="card-body">
+              <div class="text-center position-relative">
+                <a href=""><img src="img/grocery/product-img-7.jpg" alt="Grocery Ecommerce Template"
+                    class="mb-2 img-fluid wow animate__animated animate__tada"></a>
+
+              </div>
+              <div class="text-small mb-1">
+                <a href="#!" class="text-decoration-none text-muted"><small>Dairy, Bread &amp; Eggs</small></a>
+              </div>
+              <h2 class="fs-6"><a href="" class="text-inherit text-dark text-decoration-none">Britannia
+                  Cheese Slices</a></h2>
+              <div class="d-flex justify-content-between align-items-center mt-3">
+                <div><span class="text-dark">$24</span></div>
+                <div>
+                  <a href="#!" class="btn btn-success btn-sm"> Add </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Products 8 -->
+
+        <div class="col">
+          <div class="card card-product">
+            <div class="card-body">
+              <div class="text-center position-relative">
+                <a href=""><img src="img/grocery/product-img-8.jpg" alt="Grocery Ecommerce Template"
+                    class="mb-2 img-fluid wow animate__animated animate__tada"></a>
+
+              </div>
+              <div class="text-small mb-1">
+                <a href="#!" class="text-decoration-none text-muted"><small>Instant Food</small></a>
+              </div>
+              <h2 class="fs-6"><a href="" class="text-inherit text-dark text-decoration-none">Kellogg's
+                  Original Cereals</a></h2>
+
+              <div class="d-flex justify-content-between align-items-center mt-3">
+                <div>
+                  <span class="text-dark">$32</span>
+                  <span class="text-decoration-line-through text-muted">$35</span>
+                </div>
+                <div>
+                  <a href="#!" class="btn btn-success btn-sm"> Add </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Products 9 -->
+
+        <div class="col">
+          <div class="card card-product">
+            <div class="card-body">
+              <div class="text-center position-relative">
+                <a href=""><img src="img/grocery/product-img-9.jpg" alt="Grocery Ecommerce Template"
+                    class="mb-2 img-fluid wow animate__animated animate__tada"></a>
+
+              </div>
+              <div class="text-small mb-1">
+                <a href="#!" class="text-decoration-none text-muted"><small>Snack &amp; Munchies</small></a>
+              </div>
+              <h2 class="fs-6"><a href="" class="text-inherit text-dark text-decoration-none">Slurrp
+                  Millet Chocolate</a></h2>
+
+              <div class="d-flex justify-content-between align-items-center mt-3">
+                <div>
+                  <span class="text-dark">$3</span>
+                  <span class="text-decoration-line-through text-muted">$5</span>
+                </div>
+                <div>
+                  <a href="#!" class="btn btn-success btn-sm"> Add </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Products 10 -->
+
+        <div class="col">
+          <div class="card card-product">
+            <div class="card-body">
+              <div class="text-center position-relative">
+                <a href=""><img src="img/grocery/product-img-10.jpg" alt="Grocery Ecommerce Template"
+                    class="mb-2 img-fluid wow animate__animated animate__tada"></a>
+
+              </div>
+              <div class="text-small mb-1">
+                <a href="#!" class="text-decoration-none text-muted"><small>Dairy, Bread &amp; Eggs</small></a>
+              </div>
+              <h2 class="fs-6"><a href="" class="text-inherit text-dark text-decoration-none">Amul
+                  Butter - 500 g</a></h2>
+
+              <div class="d-flex justify-content-between mt-4">
+                <div>
+                  <span class="text-dark">$13</span>
+                  <span class="text-decoration-line-through text-muted">$18</span>
+                </div>
+                <div>
+                  <a href="#!" class="btn btn-success btn-sm"> Add </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <section class="overflow-hidden">
+    <div class="container mt-5 mb-4">
+      <div class="row g-2">
+        <div class="col-12 col-md-4 wow animate__animated animate__slideInLeft ">
+          <div>
+            <div class="py-5 px-5 rounded"
+              style="background: url(img/ad-banner-1.jpg) no-repeat; background-size: cover; background-position: center">
+              <div>
+                <h3 class="fw-bold mb-1">10% cashback on personal care</h3>
+                <p class="pt-2">
+                  Max cashback: $12 <br>
+                  <span class="fw-bold">Code:</span>
+                  CARE12
+                </p>
+                <a href="" class="btn btn-dark">Shop Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 wow animate__animated animate__backInDown ">
+          <div>
+            <div class="py-5 px-5 rounded"
+              style="background: url(img/ad-banner-2.jpg) no-repeat; background-size: cover; background-position: center">
+              <div>
+                <h3 class="fw-bold mb-1">Say yes to <br> season’s fresh</h3>
+                <p class="pt-2">
+                  Refresh your day <br> the fruity way
+
+                </p>
+                <a href="" class="btn btn-dark">Shop Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 wow animate__animated animate__slideInRight">
+          <div>
+            <div class="py-5 px-5 rounded"
+              style="background: url(img/ad-banner-3.jpg) no-repeat; background-size: cover; background-position: center">
+              <div>
+                <h3 class="fw-bold mb-1"> When in doubt, <br> eat ice cream</h3>
+                <p class="pt-2">
+                  Enjoy a scoop of
+                  <br>
+                  summer today
+
+                </p>
+                <a href="" class="btn btn-dark">Shop Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="mb-5 pt-5 overflow-hidden">
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-12 mb-6 wow animate__animated animate__slideInLeft">
+          <h3 class="mb-4">Daily Best Sells</h3>
+        </div>
+      </div>
+      <div class="">
+        <div class="row row-cols-lg-4 row-cols-1 row-cols-md-2 g-4 align-items-center">
+          <div class="col wow animate__animated animate__slideInLeft">
+            <div class=" rounded"
+              style="background: url(img/banner-deal.jpg) no-repeat; background-size: cover; height: 470px">
+              <div>
+                <h3 class="fw-bold text-white pt-5">100% Organic Coffee Beans.</h3>
+                <p class="text-white">Get the best deal before close.</p>
+                <a href="#!" class="btn btn-success"> Shop Now </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col ">
+            <div class="card card-product">
+              <div class="card-body">
+                <div class="text-center position-relative">
+                  <a href=""><img src="img/grocery/product-img-11.jpg" alt="Grocery Ecommerce Template"
+                      class="mb-3 img-fluid wow animate__animated animate__tada"></a>
+                </div>
+                <div class="text-small mb-1">
+                  <a href="#!" class="text-decoration-none text-muted"><small>Tea, Coffee &amp; Drinks</small></a>
+                </div>
+                <h2 class="fs-6"><a href="" class="text-inherit text-dark text-decoration-none">Roast Ground Coffee</a>
+                </h2>
+
+                <div class="d-flex justify-content-between align-items-center mt-1">
+                  <div>
+                    <span class="text-dark">$13</span>
+                    <span class="text-decoration-line-through text-muted">$18</span>
+                  </div>
+                </div>
+                <div class="d-grid mt-2">
+                  <a href="#!" class="btn btn-success">
+
+                    Add to cart
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col">
+            <div class="card card-product">
+              <div class="card-body">
+                <div class="text-center position-relative">
+                  <a href=""><img src="img/grocery/product-img-12.jpg" alt="Grocery Ecommerce Template"
+                      class="mb-3 img-fluid wow animate__animated animate__tada"></a>
+
+                </div>
+                <div class="text-small mb-1">
+                  <a href="#!" class="text-decoration-none text-muted"><small>Fruits &amp; Vegetables</small></a>
+                </div>
+                <h2 class="fs-6"><a href="" class="text-inherit text-dark text-decoration-none">Crushed Tomatoes</a>
+                </h2>
+                <div class="d-flex justify-content-between align-items-center mt-1">
+                  <div>
+                    <span class="text-dark">$13</span>
+                    <span class="text-decoration-line-through text-muted">$18</span>
+                  </div>
+                </div>
+                <div class="d-grid mt-2">
+                  <a href="#!" class="btn btn-success"> Add to cart </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col ">
+            <div class="card card-product">
+              <div class="card-body">
+                <div class="text-center position-relative">
+                  <a href=""><img src="img/grocery/product-img-13.jpg" alt="Grocery Ecommerce Template"
+                      class="mb-3 img-fluid wow animate__animated animate__tada"></a>
+
+                </div>
+                <div class="text-small mb-1">
+                  <a href="#!" class="text-decoration-none text-muted"><small>Fruits &amp; Vegetables</small></a>
+                </div>
+                <h2 class="fs-6"><a href="./pages/shop-single.html" class="text-inherit text-decoration-none">Golden
+                    Pineapple</a></h2>
+                <div class="d-flex justify-content-between align-items-center mt-1">
+                  <div>
+                    <span class="text-dark">$13</span>
+                    <span class="text-decoration-line-through text-muted">$18</span>
+                  </div>
+
+                </div>
+                <div class="d-grid mt-2">
+                  <a href="#!" class="btn btn-success"> Add to cart </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6 col-lg-3">
+        <div class="mb-4"><img src="img/clock.svg" alt=""></div>
+        <h3 class="h5 mb-1">10 minute grocery now</h3>
+        <p>Get your order delivered to your doorstep at the earliest from FreshCart pickup stores near you.</p>
+
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="mb-4"><img src="img/gift.svg" alt=""></div>
+        <h3 class="h5 mb-">Best Prices &amp; Offers</h3>
+        <p>Cheaper prices than your local supermarket, great cashback offers to top it off. Get best pricess &amp;
+          offers.</p>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="mb-4"><img src="img/package.svg" alt=""></div>
+        <h3 class="h5 mb-1">Wide Assortment</h3>
+        <p>Choose from 5000+ products across food, personal care, household, bakery, veg and non-veg &amp; other
+          categories.</p>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="mb-4"><img src="img/refresh-cw.svg" alt=""></div>
+        <h3 class="h5 mb-1">Easy Returns</h3>
+        <p>
+          Not satisfied with a product? Return it at the doorstep &amp; get a refund within hours. No questions asked
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <p class="col-md-4 mb-0 text-muted">© 2023  Full Stack</p>
+  
+      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+       <img src="img/freshcart-logo.svg" class="img-fluid rounded-top" alt="">
+      </a>
+  
+      <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link text-dark">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="" class="nav-link dropdown-toggle text-dark" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Stores</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="grocery.html">Grocery</a></li>
+              <li><a class="dropdown-item" href="Electronics.html">Electronics</a></li>
+              <li><a class="dropdown-item" href="fashion.html"> Fashion </a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="blog.html" class="nav-link text-dark">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link text-dark">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="aboutus.html" class="nav-link text-dark">Aboutus</a>
+          </li>
+      </ul>
+    </footer>
+  </div>
+
+
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="js/PBslider.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1VDDWMRSTH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-1VDDWMRSTH');
+</script>
+<script>
+  try {
+    fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function (response) {
+      return true;
+    }).catch(function (e) {
+      var carbonScript = document.createElement("script");
+      carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
+      carbonScript.id = "_carbonads_js";
+      document.getElementById("carbon-block").appendChild(carbonScript);
+    });
+  } catch (error) {
+    console.log(error);
+  }
+</script>
+
+
+<script src="js/wow.min.js"></script>
+<script>
+  new WOW().init();
+</script>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+
+<!-- Initialize Swiper -->
+<script>
+  const progressCircle = document.querySelector(".autoplay-progress svg");
+  const progressContent = document.querySelector(".autoplay-progress span");
+  var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    loop: true,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true
+    },
+    breakpoints: {
+      480: {
+        slidesPerView: 2,
+        spaceBetween: 10,
+      },
+      576: {
+        slidesPerView: 2,
+        spaceBetween: 10,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 40,
+      },
+      992: {
+        slidesPerView: 4,
+        spaceBetween: 30,
+      },
+      1200: {
+        slidesPerView: 6,
+        spaceBetween: 20,
+      },
+    },
+    navigation: {
+      nextEl: ".swiper-next",
+      prevEl: ".swiper-prev"
+    },
+  });
+</script>
+
+
+</html>

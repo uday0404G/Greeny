@@ -1,0 +1,99 @@
+@media (max-width:768px) {
+  
+    .slide1 div.PBcaption {
+        position: absolute;
+        left: 5%;
+        z-index: 9999;
+        top: 0;
+        color: #fff;
+        width: 50%;    
+        padding: 0;        
+    }
+
+    .slide2 div.PBcaption {
+        position: absolute;
+        left: 5%;
+        z-index: 9999;
+        top: 0;
+        color: #658CFF;
+        width: 50%;    
+        padding: 0;
+    }
+
+    .slide3 div.PBcaption {
+        position: absolute;
+        left: 5%;
+        z-index: 9999;
+        top: 0;
+        color: #658CFF;
+        width: 50%;    
+        padding: 0;
+    }
+
+    .slide4 div.PBcaption {
+        position: absolute;
+        left: 5%;
+        z-index: 9999;
+        top: 0;
+        color: #658CFF;
+        width: 50%;    
+        padding: 0;
+    }
+    .carbon-text {
+        font-size: 14px
+      }
+
+  }
+@media (max-width:576px) {
+  
+    .slide1 div.PBcaption {
+        position: absolute;
+        left: 5%;
+        z-index: 9999;
+        top: 0;
+        color: #fff;
+        width: 90%;    
+        padding: 0;        
+    }
+
+    .slide2 div.PBcaption {
+        position: absolute;
+        left: 5%;
+        z-index: 9999;
+        top: 0;
+        color: #658CFF;
+        width: 100%;    
+        padding: 0;
+    }
+
+    .slide3 div.PBcaption {
+        position: absolute;
+        left: 5%;
+        z-index: 9999;
+        top: 0;
+        color: #658CFF;
+        width: 100%;    
+        padding: 0;
+    }
+
+    .slide4 div.PBcaption {
+        position: absolute;
+        left: 5%;
+        z-index: 9999;
+        top: 0;
+        color: #658CFF;
+        width: 100%;    
+        padding: 0;
+    }
+    .PBcaption h2{
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom:10px;
+        letter-spacing: 0;
+    }
+    .PBcaption p{
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom:10px;
+    }
+  }
