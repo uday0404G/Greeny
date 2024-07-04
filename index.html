@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="customcss/home.css">
+  <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="customcss/mediahome.css">
 
   <link rel="stylesheet" href="css/animate.css">
@@ -81,11 +82,11 @@
         <li class="pbSlider slide1 active">
           <img src="img/slide-1.jpg">
           <div class="PBcaption">
-            <span class=" text-warning ">Opening Sale Discount 50%</span>
-            <h2 class="text-dark ">SuperMarket For Fresh Grocery</h2>
-            <p class=" text-dark">Introduced a new model for online grocery <br> shopping and convenient home delivery.
+            <span class=" text-warning " id="abc1">Opening Sale Discount 50%</span>
+            <h2 class="text-dark " id="abc1">SuperMarket For Fresh Grocery</h2>
+            <p class=" text-dark" id="abc1">Introduced a new model for online grocery <br> shopping and convenient home delivery.
             </p>
-            <a href="" class="btn btn-dark " tabindex="0">
+            <a href="" class="btn btn-dark  " tabindex="0" id="abc2">
               Shop Now
             </a>
           </div>
@@ -93,12 +94,12 @@
         <li class="pbSlider slide2 hidden" style="list-style: none;">
           <img src="img/slide-3.jpg">
           <div class="PBcaption">
-            <span class=" text-warning ">Women Collection 2024</span>
-            <h2 class="text-dark ">NEW SEASON</h2>
-            <p class=" text-dark">Free Shipping to First-Time Customers Only, After promotions and discounts are
+            <span class=" text-warning " id="abc1">Women Collection 2024</span>
+            <h2 class="text-dark " id="abc1">NEW SEASON</h2>
+            <p class=" text-dark" id="abc1">Free Shipping to First-Time Customers Only,<br> After promotions and discounts are
               applied.
             </p>
-            <a href="" class="btn btn-dark mt-lg-3" tabindex="0">
+            <a href="" class="btn btn-dark mt-lg-3" tabindex="0" id="abc2">
               Shop Now
             </a>
           </div>
@@ -106,12 +107,12 @@
         <li class="pbSlider slide3 hidden" style="list-style: none;">
           <img src="img/slider-2.jpg" class="img-fluid">
           <div class="PBcaption">
-            <span class=" text-warning ">Free Shipping - orders over $100</span>
-            <h2 class="text-dark ">Free Shipping on orders over</h2>
-            <p class=" text-dark">Free Shipping to First-Time Customers Only, After promotions and discounts are
+            <span class=" text-warning " id="abc1">Free Shipping - orders over $100</span>
+            <h2 class="text-dark " id="abc1">Free Shipping on orders over</h2>
+            <p class=" text-dark" id="abc1">Free Shipping to First-Time Customers Only,<br> After promotions and discounts are
               applied.
             </p>
-            <a href="" class="btn btn-dark mt-lg-3" tabindex="0">
+            <a href="" class="btn btn-dark mt-lg-3" id="abc2" tabindex="0">
               Shop Now
             </a>
           </div>
@@ -120,12 +121,12 @@
         <li class="pbSlider slide4 hidden" style="list-style: none;">
           <img src="img/slide-4.jpg" class="img-fluid">
           <div class="PBcaption">
-            <span class=" text-warning ">Men Collection 2024</span>
-            <h2 class="text-dark ">New arrivals</h2>
-            <p class=" text-dark">Free Shipping to First-Time Customers Only, After promotions and discounts are
+            <span class=" text-warning " id="abc1">Men Collection 2024</span>
+            <h2 class="text-dark " id="abc1">New arrivals</h2>
+            <p class=" text-dark" id="abc1">Free Shipping to First-Time Customers Only,<br> After promotions and discounts are
               applied.
             </p>
-            <a href="" class="btn btn-dark mt-lg-3" tabindex="0">
+            <a href="" class="btn btn-dark mt-lg-3" id="abc2" tabindex="0">
               Shop Now
             </a>
           </div>
@@ -144,33 +145,43 @@
       <div class="row row-cols-lg-5 row-cols-sm-3 row-cols-2">
         <div class="col">
           <div class="card-body text-center">
+            <a href="./fashion.html">
             <img src="img/women-Categories-1.png" alt="product categorie" class="mb-3 img-fluid">
-            <h5 class="cat-title">Women's</h5>
+            <h5 class="cat-title"> Women's</h5>
+          </a>
           </div>
         </div>
         <div class="col">
           <div class="card-body text-center">
+            <a href="./fashion.html">
             <img src="img/men-Categories-1.png" alt="product categorie" class="mb-3 img-fluid">
             <h5 class="cat-title">Men's</h5>
+          </a>
           </div>
         </div>
         <div class="col">
           <div class="card-body text-center">
+            <a href="./fashion.html">
             <img src="img/kid-Categories-1.png" alt="product categorie" class="mb-3 img-fluid">
             <h5 class="cat-title">Kid's</h5>
+            </a>
           </div>
         </div>
         <div class="col">
           <div class="card-body text-center">
+            <a href="./Electronics.html">
             <img src="img/phone-Categories-1.png" alt="product categorie" class="mb-3 img-fluid">
             <h5 class="cat-title  ">Phone</h5>
+            </a>
           </div>
         </div>
 
         <div class="col">
           <div class="card-body text-center ">
+            <a href="./grocery.html">
             <img src="img/supermarket-shelf.png" alt="Grocery Ecommerce Template" class="mb-3 img-fluid">
             <div class="text-truncate  ">Supermarket</div>
+            </a>
           </div>
         </div>
 
@@ -182,15 +193,10 @@
 
   <div class="container  wow animate__animated animate__fadeIn">
     <div class="row justify-content-between align-items-center g-2 mt-5 mb-4">
-      <div class="col-6 mb-6">
+      <div class="col-10 mb-6">
         <h3 class="mb-0">Featured Categories</h3>
       </div>
-      <div class="col-1">
-        <button type="button" class="swiper-next" style="font-size: 20px;"><i
-            class="fa-solid fa-angle-left"></i></button>
-        <button type="button" class="swiper-prev" style="font-size: 20px;"><i
-            class="fa-solid fa-angle-right"></i></button>
-      </div>
+      
     </div>
 
     <div class="swiper mySwiper">
@@ -344,6 +350,7 @@
             </div>
           </div>
         </div>
+
         <div class="col-12 col-md-6 wow animate__animated animate__slideInRight">
           <div>
             <div class="py-5 px-5 rounded"
@@ -375,7 +382,7 @@
         </div>
       </div>
 
-      <div class="row g-4 row-cols-lg-5 row-cols-2 row-cols-md-3 mt-3">
+      <div class="row  row-cols-lg-5 row-cols-2 row-cols-md-3 mt-3">
 
         <!-- Products 1 -->
         <div class="col">
@@ -391,7 +398,7 @@
               <div class="text-small mb-1">
                 <a href="" class="text-decoration-none text-muted"><small>Snack &amp; Munchies</small></a>
               </div>
-              <h2 class="fs-6"><a href="" class="text-inherit text-dark text-dark text-decoration-none">Haldiram's
+              <h2 class="fs-6"  id="abc3"><a href="" class="text-inherit text-dark text-dark text-decoration-none">Haldiram's
                   Sev Bhujia</a></h2>
 
               <div class="d-flex justify-content-between align-items-center mt-3">
@@ -421,7 +428,7 @@
               <div class="text-small mb-1">
                 <a href="#!" class="text-decoration-none text-muted"><small>Bakery &amp; Biscuits</small></a>
               </div>
-              <h2 class="fs-6"><a href="" class="text-inherit text-dark text-dark text-decoration-none">NutriChoice
+              <h2 class="fs-6 " id="abc3"><a href="" id="abc3" class="text-inherit text-dark text-dark text-decoration-none">NutriChoice
                   Digestive</a></h2>
 
               <div class="d-flex justify-content-between align-items-center mt-3">
@@ -445,7 +452,7 @@
               <div class="text-small mb-1">
                 <a href="#!" class="text-decoration-none text-muted"><small>Bakery &amp; Biscuits</small></a>
               </div>
-              <h2 class="fs-6"><a href="" class="text-inherit text-dark text-decoration-none">Cadbury 5 Star
+              <h2 class="fs-6" id="abc3"><a href="" id="abc3" class="text-inherit text-dark text-decoration-none">Cadbury 5 Star
                   Chocolate</a></h2>
 
               <div class="d-flex justify-content-between align-items-center mt-3">
@@ -475,7 +482,7 @@
               <div class="text-small mb-1">
                 <a href="#!" class="text-decoration-none text-muted"><small>Snack &amp; Munchies</small></a>
               </div>
-              <h2 class="fs-6"><a href="" class="text-inherit text-dark text-decoration-none">Onion
+              <h2 class="fs-6" id="abc3"><a href="" class="text-inherit text-dark text-decoration-none">Onion
                   Flavour Potato</a></h2>
               <div class="d-flex justify-content-between align-items-center mt-3">
                 <div>
@@ -503,7 +510,7 @@
               <div class="text-small mb-1">
                 <a href="#!" class="text-decoration-none text-muted"><small>Instant Food</small></a>
               </div>
-              <h2 class="fs-6"><a href="" class="text-inherit text-dark text-decoration-none">Salted
+              <h2 class="fs-6" id="abc3"><a href="" class="text-inherit text-dark text-decoration-none">Salted
                   Instant Popcorn</a></h2>
 
               <div class="d-flex justify-content-between mt-4">
@@ -532,10 +539,10 @@
                     class="mb-2 img-fluid wow animate__animated animate__tada"></a>
 
               </div>
-              <div class="text-small mb-1">
+              <div class="text-small mb-3">
                 <a href="#!" class="text-decoration-none text-muted"><small>Dairy, Bread &amp; Eggs</small></a>
               </div>
-              <h2 class="fs-6"><a href="" class="text-inherit text-dark text-decoration-none">Blueberry
+              <h2 class="fs-6" id="abc3"><a href="" class="text-inherit text-dark text-decoration-none">Blueberry
                   Greek Yogurt</a></h2>
 
               <div class="d-flex justify-content-between align-items-center mt-3">
@@ -564,7 +571,7 @@
               <div class="text-small mb-1">
                 <a href="#!" class="text-decoration-none text-muted"><small>Dairy, Bread &amp; Eggs</small></a>
               </div>
-              <h2 class="fs-6"><a href="" class="text-inherit text-dark text-decoration-none">Britannia
+              <h2 class="fs-6" id="abc3"><a href="" class="text-inherit text-dark text-decoration-none">Britannia
                   Cheese Slices</a></h2>
               <div class="d-flex justify-content-between align-items-center mt-3">
                 <div><span class="text-dark">$24</span></div>
@@ -589,7 +596,7 @@
               <div class="text-small mb-1">
                 <a href="#!" class="text-decoration-none text-muted"><small>Instant Food</small></a>
               </div>
-              <h2 class="fs-6"><a href="" class="text-inherit text-dark text-decoration-none">Kellogg's
+              <h2 class="fs-6" id="abc3"><a href="" class="text-inherit text-dark text-decoration-none">Kellogg's
                   Original Cereals</a></h2>
 
               <div class="d-flex justify-content-between align-items-center mt-3">
@@ -618,7 +625,7 @@
               <div class="text-small mb-1">
                 <a href="#!" class="text-decoration-none text-muted"><small>Snack &amp; Munchies</small></a>
               </div>
-              <h2 class="fs-6"><a href="" class="text-inherit text-dark text-decoration-none">Slurrp
+              <h2 class="fs-6" ><a href=""  class="text-inherit text-dark text-decoration-none">Slurrp
                   Millet Chocolate</a></h2>
 
               <div class="d-flex justify-content-between align-items-center mt-3">
@@ -644,11 +651,11 @@
                     class="mb-2 img-fluid wow animate__animated animate__tada"></a>
 
               </div>
-              <div class="text-small mb-1">
+              <div class="text-small mb-3">
                 <a href="#!" class="text-decoration-none text-muted"><small>Dairy, Bread &amp; Eggs</small></a>
               </div>
-              <h2 class="fs-6"><a href="" class="text-inherit text-dark text-decoration-none">Amul
-                  Butter - 500 g</a></h2>
+              <h2 class="fs-6" id="abc3"><a href="" class="text-inherit text-dark text-decoration-none">Amul
+                  Butter -  500 g</a></h2>
 
               <div class="d-flex justify-content-between mt-4">
                 <div>
@@ -839,6 +846,172 @@
     </div>
   </section>
 
+  
+
+  <section class="my-lg-5 my-5">
+    <div class="container">
+        <div class="row wow animate__animated animate__slideInLeft">
+            <div class="col-12 mb-6">
+                <h3 class="mb-0">Popular Products</h3>
+            </div>
+        </div>
+
+        <div class="row g-4 row-cols-lg-5 row-cols-2 row-cols-md-3 mt-3">
+
+            <!-- Products 1 -->
+
+            <div class="col">
+                <div class="card card-product">
+                    <div class="">
+                        <div class="text-center position-relative ">
+                            <div class="position-absolute top-0 start-0">
+                                <span class="badge bg-danger">Sale</span>
+                            </div>
+                            <a href="#!"><img src="img/product/n1.jpg" alt="Grocery Ecommerce Template"
+                                    class="mb-2 img-fluid wow animate__animated animate__tada "></a>
+                        </div>
+                        <div class="text-small mb-1 mt-1 text-center">
+                            <a href="" class="text-decoration-none text-dark  text-center"><small>Buttons tweed
+                                    blazer</small></a>
+                        </div>
+                        <h2 class="fs-6 text-center">
+                            <a href="" class="text-dark text-decoration-none ">$ 59.0</a>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Products 2 -->
+
+            <div class="col">
+                <div class="card card-product">
+                    <div class="">
+                        <div class="text-center position-relative ">
+                            <div class="position-absolute top-0 start-0">
+                                <span class="badge bg-danger">Sale</span>
+                            </div>
+                            <a href="#!"><img src="img/product/n2.jpg" alt="Grocery Ecommerce Template"
+                                    class="mb-2 img-fluid wow animate__animated animate__tada "></a>
+                        </div>
+                        <div class="text-small mb-1 mt-1 text-center">
+                            <a href="" class="text-decoration-none text-dark  text-center"><small>Flowy striped
+                                    skirt</small></a>
+                        </div>
+                        <h2 class="fs-6 text-center">
+                            <a href="" class="text-dark text-decoration-none ">$ 59.0</a>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Products 3 -->
+
+            <div class="col">
+                <div class="card card-product">
+                    <div class="">
+                        <div class="text-center position-relative ">
+                            <div class="position-absolute top-0 start-0">
+                                <span class="badge bg-danger">Sale</span>
+                            </div>
+                            <a href="#!"><img src="img/product/n3.jpg" alt="Grocery Ecommerce Template"
+                                    class="mb-2 img-fluid wow animate__animated animate__tada "></a>
+                        </div>
+                        <div class="text-small mb-1 mt-1 text-center">
+                            <a href="" class="text-decoration-none text-dark text-center"><small>Cotton
+                                    T-Shirt</small></a>
+                        </div>
+                        <h2 class="fs-6 text-center">
+                            <a href="" class="text-dark text-decoration-none ">$ 59.0 </a>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Products 4 -->
+
+            <div class="col">
+                <div class="card card-product">
+                    <div class="">
+                        <div class="text-center position-relative ">
+                            <div class="position-absolute top-0 start-0">
+                                <span class="badge bg-danger">Sale</span>
+                            </div>
+                            <a href="#!"><img src="img/product/n4.jpg" alt="Grocery Ecommerce Template"
+                                    class="mb-2 img-fluid wow animate__animated animate__tada "></a>
+                        </div>
+                        <div class="text-small mb-1 mt-1 text-center">
+                            <a href="" class="text-decoration-none text-dark text-center"><small>Slim striped pocket
+                                    shirt</small></a>
+                        </div>
+                        <h2 class="fs-6 text-center">
+                            <a href="" class="text-dark text-decoration-none ">$ 59.0 </a>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Products 5 -->
+
+            <div class="col">
+                <div class="card card-product">
+                    <div class="">
+                        <div class="text-center position-relative ">
+                            <div class="position-absolute top-0 start-0">
+                                <span class="badge bg-danger">Sale</span>
+                            </div>
+                            <a href="#!"><img src="img/product/n8.jpg" alt="Grocery Ecommerce Template"
+                                    class="mb-2 img-fluid wow animate__animated animate__tada "></a>
+                        </div>
+                        <div class="text-small mb-1 mt-1 text-center">
+                            <a href="" class="text-decoration-none text-dark text-center"><small>Fit micro corduroy
+                                    shirt</small></a>
+                        </div>
+                        <h2 class="fs-6 text-center">
+                            <a href="" class="text-dark text-decoration-none ">$ 59.0</a>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="shipping_details section_padding mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                <div class="single_shopping_details">
+                    <img src="img/product/icon_1.png" alt="" class="mt-3 mb-3">
+                    <h4>Free shipping</h4>
+                    <p>Divided face for bearing the divide unto seed winged divided light Forth.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="single_shopping_details">
+                    <img src="img/product/icon_2.png" alt="" class="mt-3 mb-3">
+                    <h4>Free shipping</h4>
+                    <p>Divided face for bearing the divide unto seed winged divided light Forth.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="single_shopping_details">
+                    <img src="img/product/icon_3.png" alt="" class="mt-3 mb-3">
+                    <h4>Free shipping</h4>
+                    <p>Divided face for bearing the divide unto seed winged divided light Forth.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="single_shopping_details">
+                    <img src="img/product/icon_4.png" alt="" class="mt-3 mb-3">
+                    <h4>Free shipping</h4>
+                    <p>Divided face for bearing the divide unto seed winged divided light Forth.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 
   <div class="container mt-5">
     <div class="row">
@@ -875,7 +1048,7 @@
 
   <div class="container">
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-      <p class="col-md-4 mb-0 text-muted">© 2023  VRU InfoTech</p>
+      <p class="col-md-4 mb-0 text-muted">© 2023  Full Stack</p>
   
       <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
        <img src="img/freshcart-logo.svg" class="img-fluid rounded-top" alt="">
